@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     [Header("Movement Parameters")]
     public float speed = 10;
     public Vector2 moveInput; //Almacén del input de movimiento de los periféricos que usamos para jugar
+    public Transform camara; //Referencia camara
 
     [Header("Jump Parameters")]
     public float jumpForce = 6;
@@ -31,7 +32,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //CinematicMovement();
+        CinematicMovement();
         //Respawn por altura
         if (transform.position.y <= fallLimit)
         {
@@ -42,7 +43,7 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         //Update para calcular movimientos físicos
-        PhysicalMovement();
+       // PhysicalMovement();
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -62,8 +63,15 @@ public class PlayerController : MonoBehaviour
     {
         //Movimiento = (Dirección * velocidad * input)
         //Necesitais multiplicar el movimiento por Time.deltaTime
-        transform.Translate(Vector3.right * speed * moveInput.x * Time.deltaTime);
-        transform.Translate(Vector3.forward * speed * moveInput.y * Time.deltaTime);
+        //transform.Translate(Vector3.right * speed * moveInput.x * Time.deltaTime);
+        //transform.Translate(Vector3.forward * speed * moveInput.y * Time.deltaTime);
+        Vector3 camForward = camara.forward;
+        Vector3 camRight = camara.right;
+        camRight.y = 0;
+        camForward.Normalize();
+        camRight.Normalize();
+        Vector3 moveDirection = (camForward * moveInput.y + camRight * moveInput.x).normalized;
+        transform.Translate(moveDirection * speed * Time.deltaTime, Space.World);
     }
 
     void PhysicalMovement()
