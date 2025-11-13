@@ -5,9 +5,27 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/_RootRollaBall/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/_RootRollaBall/Scenes/SCN_MainMenu.unity
+    guid: bafd89a77da94c64480303f9e58d0d24
+  - enabled: 1
+    path: Assets/_RootRollaBall/Scenes/SCN_1_Aitana.unity
+    guid: 48d73f71cada7a043a9e1dcb1c37d441
+  - enabled: 1
+    path: Assets/_RootRollaBall/Scenes/SCN_2_Diego.unity
+    guid: 91131e691d72ec54d9ec6a5ce941a7bc
+  - enabled: 1
+    path: Assets/_RootRollaBall/Scenes/SCN_3_Ian.unity
+    guid: 7ab18a9571e56884ab69bbc4629fe701
+  - enabled: 1
+    path: Assets/_RootRollaBall/Scenes/SCN_4_Guadalupe.unity
+    guid: 2137909c107eba44c8e39ad3dffcaf9a
+  - enabled: 1
+    path: Assets/_RootRollaBall/Scenes/SCN_Victory.unity
+    guid: dd759d768f6cc6f469c52681e4f2f139
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
