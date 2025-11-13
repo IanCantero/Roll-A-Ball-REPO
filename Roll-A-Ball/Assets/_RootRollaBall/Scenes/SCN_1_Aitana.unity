@@ -3828,8 +3828,12 @@ PrefabInstance:
       value: 3.6659284
       objectReference: {fileID: 0}
     - target: {fileID: 3967793442122228691, guid: f0e15b1f433960041aa100c52e76eb0f, type: 3}
+      propertyPath: winPickUp
+      value: 
+      objectReference: {fileID: 164860402}
+    - target: {fileID: 3967793442122228691, guid: f0e15b1f433960041aa100c52e76eb0f, type: 3}
       propertyPath: winPoints
-      value: 100
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5134470044345049652, guid: f0e15b1f433960041aa100c52e76eb0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17027,6 +17031,10 @@ PrefabInstance:
       value: PickUp_Jarron
       objectReference: {fileID: 0}
     - target: {fileID: 8986687618333682161, guid: 446844539a3c5d24f9f06f4c42444dda, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986687618333682161, guid: 446844539a3c5d24f9f06f4c42444dda, type: 3}
       propertyPath: m_TagString
       value: Exc.PickUp
       objectReference: {fileID: 0}
@@ -22047,6 +22055,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 338959369}
+  - {fileID: 1628676435}
   - {fileID: 571986887}
   - {fileID: 1368147849}
   - {fileID: 2106442978}
@@ -22322,4 +22331,3 @@ SceneRoots:
   - {fileID: 1779927919}
   - {fileID: 720791002}
   - {fileID: 1315564195}
-  - {fileID: 1628676435}

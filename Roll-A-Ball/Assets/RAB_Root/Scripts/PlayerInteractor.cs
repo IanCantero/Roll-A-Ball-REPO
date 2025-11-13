@@ -1,4 +1,5 @@
 using TMPro;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -6,11 +7,9 @@ public class PlayerInteractor : MonoBehaviour
 {
     [Header("Points System")]
     public int points; //Puntuación actual del player (en juego)
-    public int winPoints = 1; //Puntuación a alcanzar para completar el nivel
+    public int winPoints = 1; //Puntuación a alcanzar para revelar el pic
     public TMP_Text pointsText; //Ref al texto de puntos para que cambie dinámicamente
-
-    [Header("Scene Management")]
-    public int sceneToLoad = 2;
+    public GameObject winPickUp;
 
     [Header("Sound References")]
     public PlayerController playerCont; //Ref als cript que contiene las llamadas a sonidos
@@ -26,7 +25,7 @@ public class PlayerInteractor : MonoBehaviour
     {
         if (points >= winPoints)
         {
-            LoadScene();
+            winPickUp.SetActive(true);
         }
 
         pointsText.text = "Points: " + points.ToString();
@@ -43,9 +42,7 @@ public class PlayerInteractor : MonoBehaviour
         }
     }
 
-    public void LoadScene()
-    {
-        SceneManager.LoadScene(sceneToLoad);
-    }
-
+    
 }
+
+
