@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_PickUp
+  m_Name: M_Hands
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -117,9 +117,9 @@ Material:
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.007831839, g: 0.8301887, b: 0.35552496, a: 1}
-    - _Color: {r: 0.007831839, g: 0.8301887, b: 0.35552493, a: 1}
-    - _EmissionColor: {r: 0, g: 1.19927, b: 0.4777435, a: 1}
+    - _BaseColor: {r: 0.0321439, g: 0.2830189, b: 0.020024918, a: 1}
+    - _Color: {r: 0.0321439, g: 0.28301886, b: 0.020024918, a: 1}
+    - _EmissionColor: {r: 0.07843137, g: 0.3529412, b: 0.30985692, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
