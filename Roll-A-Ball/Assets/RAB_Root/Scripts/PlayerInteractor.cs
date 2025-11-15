@@ -10,6 +10,7 @@ public class PlayerInteractor : MonoBehaviour
     public int winPoints = 1; //Puntuación a alcanzar para revelar el pic
     public TMP_Text pointsText; //Ref al texto de puntos para que cambie dinámicamente
     public GameObject winPickUp;
+    private int SceneToLoad = 6;
 
     [Header("Sound References")]
     public PlayerController playerCont; //Ref als cript que contiene las llamadas a sonidos
@@ -39,6 +40,11 @@ public class PlayerInteractor : MonoBehaviour
             //Destroy(other.gameObject);
             other.gameObject.SetActive(false);
             playerCont.PlaySFX(1);
+        }
+        if (other.gameObject.CompareTag("Obstacle"))
+        {
+            SceneManager.LoadScene(SceneToLoad);
+            playerCont.PlaySFX(0);
         }
     }
 
