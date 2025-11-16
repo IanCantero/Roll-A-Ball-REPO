@@ -493,7 +493,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'YOU LOOSE
+  m_text: 'YOU LOSE
 
     :_C'
   m_isRightToLeft: 0
@@ -1123,7 +1123,7 @@ RectTransform:
   m_GameObject: {fileID: 844286095}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.59898, y: 1, z: 1}
+  m_LocalScale: {x: 0.49032205, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 299686993}
@@ -1164,7 +1164,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 0241acdc65358a3429b97f06a11f89af, type: 3}
+  m_Texture: {fileID: 2800000, guid: d543e8fa514590f4ea8bde26fcacf58f, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
