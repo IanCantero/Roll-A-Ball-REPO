@@ -779,8 +779,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.30957982, y: 0.40013006, z: 0.17474554}
-  m_Center: {x: 0.000000119209275, y: 0.1696405, z: 0.052402604}
+  m_Size: {x: 0.30957982, y: 0.7575499, z: 0.17474553}
+  m_Center: {x: 0.0000001236461, y: -0.0090693, z: 0.052402604}
 --- !u!1 &240628770 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ade93b8db23f0d4429b8df60f7164e7f, type: 3}
@@ -1319,8 +1319,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.39731562, y: 0.24887517, z: 0.4216525}
-  m_Center: {x: -0.0044644033, y: -0.09660652, z: 0.2108265}
+  m_Size: {x: 0.39731562, y: 0.3161846, z: 0.4216525}
+  m_Center: {x: -0.0044644033, y: -0.13026124, z: 0.2108265}
 --- !u!1001 &481833494
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1414,8 +1414,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.2477608, y: 2.531167, z: 1.1425548}
-  m_Center: {x: 0, y: 1.2655835, z: 0}
+  m_Size: {x: 1.2477624, y: 4.706828, z: 1.1425548}
+  m_Center: {x: 0, y: 0.17775397, z: 0}
 --- !u!1001 &543591866
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1479,6 +1479,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1846f65912951e44e8999bf42853becb, type: 3}
       propertyPath: m_Name
       value: Keyboard 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1846f65912951e44e8999bf42853becb, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1551,6 +1555,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 71e652cb4928b9a43a1b61c7ba4e91cf, type: 3}
       propertyPath: m_Name
       value: Computer Mouse 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 71e652cb4928b9a43a1b61c7ba4e91cf, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1657,9 +1665,9 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.07239199
-  m_Height: 0.33964416
+  m_Height: 0.4390394
   m_Direction: 1
-  m_Center: {x: 0, y: 0.06228106, z: 0}
+  m_Center: {x: 0, y: 0.0125833135, z: 0}
 --- !u!1001 &616421799
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2119,8 +2127,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.6786709, y: 0.64778906, z: 0.34941295}
-  m_Center: {x: 0, y: 0.32389453, z: 0}
+  m_Size: {x: 0.6786709, y: 0.6477891, z: 0.997402}
+  m_Center: {x: 0.0000010415833, y: 0.32389337, z: -0.32399493}
 --- !u!114 &689298982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2376,8 +2384,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.12666787, y: 0.2409081, z: 0.15220071}
-  m_Center: {x: 0.036813784, y: 0.12045405, z: 0.0114787575}
+  m_Size: {x: 0.12666787, y: 0.46963403, z: 0.15220071}
+  m_Center: {x: 0.036813784, y: 0.0060914373, z: 0.0114787575}
 --- !u!1001 &732368842
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3284,8 +3292,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.20737198, y: 1.0578438, z: 1.0441484}
-  m_Center: {x: -1.2086459, y: 0.32376084, z: 0.00000017689412}
+  m_Size: {x: 0.20737198, y: 1.4462466, z: 1.0441484}
+  m_Center: {x: -1.2086459, y: 0.12955958, z: 0.00000017689412}
 --- !u!65 &912745860
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3305,8 +3313,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.25029144, y: 0.9992392, z: 1.0441484}
-  m_Center: {x: 1.1568261, y: 0.35306314, z: 0.00000017689412}
+  m_Size: {x: 0.25029144, y: 1.2726443, z: 1.0441484}
+  m_Center: {x: 1.1568261, y: 0.21636087, z: 0.00000017689412}
 --- !u!1 &918601017 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0ecbfcb6140f4b34486ecce9150c76d6, type: 3}
@@ -4124,7 +4132,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 406.33997, y: 614.61755}
+  m_AnchoredPosition: {x: 406.33997, y: 379}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1070861916
@@ -4174,8 +4182,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Collect all the coins and the hidden pick-up in this scene to advance to
-    the next level, and escapes from our hands.
+  m_text: 'Collect all the coins and the hidden pick-up in the scene to open the
+    window
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 792e88a049183c24e8b5f5d7445da13f, type: 2}
   m_sharedMaterial: {fileID: -4271562800159097886, guid: 792e88a049183c24e8b5f5d7445da13f, type: 2}
@@ -4209,7 +4219,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -4240,7 +4250,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -594.9262, y: 0, z: -394.69885, w: -49.55194}
+  m_margin: {x: -594.9262, y: 0, z: -306.22458, w: -49.55194}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4710,8 +4720,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.110832214, y: 0.24379015, z: 0.10939311}
-  m_Center: {x: 0, y: 0.121895075, z: 0}
+  m_Size: {x: 0.110832214, y: 0.62905586, z: 0.109393135}
+  m_Center: {x: 0, y: -0.07073793, z: 0}
 --- !u!1 &1171981304
 GameObject:
   m_ObjectHideFlags: 0
@@ -5812,8 +5822,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.23732267, y: 0.05565763, z: 0.36938885}
-  m_Center: {x: -0.0000004785453, y: 0.0000015377877, z: 0.13183485}
+  m_Size: {x: 0.23732267, y: 0.05565763, z: 0.4905193}
+  m_Center: {x: -0.0000004783926, y: 0.0000015185111, z: 0.071269706}
 --- !u!1001 &1463105322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5933,8 +5943,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.76094615, y: 1.7206446, z: 0.6898336}
-  m_Center: {x: 0, y: 0.8603223, z: -0.0084233275}
+  m_Size: {x: 0.76094615, y: 3.1743693, z: 0.6898336}
+  m_Center: {x: 1.0916323e-11, y: 0.13345484, z: -0.00842334}
 --- !u!1001 &1498567905
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7617,8 +7627,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.5084342, y: 1.0251672, z: 0.465538}
-  m_Center: {x: 0, y: 0.5125836, z: 0}
+  m_Size: {x: 1.5084342, y: 2.09683, z: 0.465538}
+  m_Center: {x: 0, y: -0.023248294, z: 0}
 --- !u!1001 &1791951218
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8253,8 +8263,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.23732385, y: 0.40355226, z: 0.18655784}
-  m_Center: {x: -0.0000009533277, y: 0.11475341, z: -0.0000033420654}
+  m_Size: {x: 0.23732385, y: 0.4934753, z: 0.18655784}
+  m_Center: {x: -0.0000009533277, y: 0.069791906, z: -0.0000033420654}
 --- !u!1001 &1884348476
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8498,8 +8508,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.44646078, y: 0.5425114, z: 0.4126531}
-  m_Center: {x: 0.000000022351745, y: 0.2712557, z: 0.000000007450581}
+  m_Size: {x: 0.44646078, y: 1.2106534, z: 0.41265306}
+  m_Center: {x: 0.000000022155405, y: -0.062815644, z: 8.5754674e-18}
 --- !u!1 &1910571336 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e6f20915a71aef546bc6d2463b638893, type: 3}
