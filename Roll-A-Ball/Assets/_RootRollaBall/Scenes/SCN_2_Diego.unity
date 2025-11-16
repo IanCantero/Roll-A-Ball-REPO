@@ -5273,6 +5273,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1820978294442856117, guid: bfc1bde826a927c409364b1e9bb4778c, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5896837111506774628, guid: bfc1bde826a927c409364b1e9bb4778c, type: 3}
       propertyPath: m_LocalScale.x
       value: 6.1619
