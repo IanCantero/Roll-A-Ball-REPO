@@ -4697,7 +4697,7 @@ PrefabInstance:
     - target: {fileID: 3967793442122228691, guid: f0e15b1f433960041aa100c52e76eb0f, type: 3}
       propertyPath: pointsText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1837995938}
     - target: {fileID: 3967793442122228691, guid: f0e15b1f433960041aa100c52e76eb0f, type: 3}
       propertyPath: SceneToLoad
       value: 6

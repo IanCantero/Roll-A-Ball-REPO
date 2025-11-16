@@ -4169,7 +4169,7 @@ PrefabInstance:
     - target: {fileID: 3967793442122228691, guid: f0e15b1f433960041aa100c52e76eb0f, type: 3}
       propertyPath: pointsText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 237637816}
     - target: {fileID: 5134470044345049652, guid: f0e15b1f433960041aa100c52e76eb0f, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
