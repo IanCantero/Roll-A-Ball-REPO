@@ -419,7 +419,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 490557065777024779, guid: 24d49301e615c8149b5a0af6f3ae27fe, type: 3}
       propertyPath: speed
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 490557065777024779, guid: 24d49301e615c8149b5a0af6f3ae27fe, type: 3}
       propertyPath: player
@@ -486,8 +486,16 @@ PrefabInstance:
       value: 0.025527114
       objectReference: {fileID: 0}
     - target: {fileID: 8070325855974532866, guid: 24d49301e615c8149b5a0af6f3ae27fe, type: 3}
+      propertyPath: m_Size.z
+      value: 0.05079544
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070325855974532866, guid: 24d49301e615c8149b5a0af6f3ae27fe, type: 3}
       propertyPath: m_Center.x
       value: 0.0101252375
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070325855974532866, guid: 24d49301e615c8149b5a0af6f3ae27fe, type: 3}
+      propertyPath: m_Center.z
+      value: 0.018416561
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
